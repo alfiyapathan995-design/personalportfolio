@@ -4,7 +4,7 @@ This is my **Week 2 Personal Portfolio Website**, developed by enhancing the Wee
 In this week, I focused on improving the **design, layout, responsiveness, and user interaction**
 using modern **CSS techniques**.
 
-## 📌 Features (Week 2 Enhancements)
+Featured Used
 - External CSS file for better structure and maintainability
 - Modern color scheme using CSS variables
 - Custom typography using Google Fonts
@@ -13,7 +13,7 @@ using modern **CSS techniques**.
 - Hover effects, transitions, and basic animations
 - Styled sections, buttons, forms, and images
 
-## 🛠️ Technologies Used
+Technologies Used
 - HTML5
 - CSS3  
   - Flexbox  
@@ -21,7 +21,7 @@ using modern **CSS techniques**.
   - Media Queries  
   - Transitions & Hover Effects  
 
-## 🎯 Learning Outcomes
+ Learning Outcomes
 - Linking external CSS files
 - Creating reusable CSS classes and variables
 - Designing responsive web layouts
@@ -29,4 +29,4 @@ using modern **CSS techniques**.
 - Implementing interactive UI elements
 - Writing clean and organized CSS
 
-## 📁 Project Structure
+
