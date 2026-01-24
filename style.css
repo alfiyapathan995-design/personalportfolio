@@ -1,3 +1,4 @@
+/* Day 1: Reset & Base Setup */
 * {
   margin: 0;
   padding: 0;
@@ -9,7 +10,7 @@ html {
 }
 
 
-
+/* Day 2: Typography & Colors */
 :root {
   --primary-color: #0f172a;      
   --secondary-color: #38bdf8;    
@@ -26,7 +27,7 @@ body {
   line-height: 1.7;
 }
 
-
+/* Day 3: Header Layout (Flexbox) */
 header {
   background: linear-gradient(90deg, #0f172a, #1e293b);
   color: white;
@@ -41,7 +42,7 @@ header h1 {
   font-size: 26px;
   font-weight: 600;
 }
-
+/* Day 4: Interactive Elements */
 nav a {
   color: white;
   margin-left: 20px;
@@ -109,7 +110,7 @@ nav a:hover::after {
   border: 5px solid var(--secondary-color);
   transition: transform 0.4s;
 }
-
+/* Day 5: Advanced Styling */
 .about img:hover {
   transform: scale(1.05);
 }
@@ -183,6 +184,7 @@ footer {
   font-size: 14px;
 }
 
+/* Day 6: Responsive Design */
 
 @media (max-width: 768px) {
   header {
@@ -204,6 +206,7 @@ footer {
     text-align: center;
   }
 }
+/* Day 7: Optimization & Testing */
 
 
 
