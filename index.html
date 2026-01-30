@@ -5,133 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> My Portfolio | Alfiya Ayubkhan Pathan</title>
 
-   <!-- <style>
-       \ * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+   
 
-        body {
-            background-color: #f4f6f8;
-            color: #333;
-            line-height: 1.6;
-        }
-
-       
-        header {
-            background: #0f172a;
-            color: white;
-            padding: 20px 10%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        header h1 {
-            font-size: 24px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin-left: 20px;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            color: #38bdf8;
-        }
-
-       
-        main {
-            padding: 0;
-        }
-
-        section {
-            padding: 60px 10%;
-            background: white;
-            margin-bottom: 20px;
-        }
-
-        section h2 {
-            font-size: 28px;
-            margin-bottom: 15px;
-            color: #0f172a;
-        }
-
-       
-        .about {
-            display: flex;
-            gap: 40px;
-            align-items: center;
-            flex-wrap: wrap;
-        }
-
-        .about img {
-            width: 180px;
-            border-radius: 50%;
-        }
-
-       
-        .skills-list {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-            gap: 15px;
-        }
-
-        .skill-card {
-            background: #f1f5f9;
-            padding: 15px;
-            border-radius: 8px;
-            text-align: center;
-            font-weight: bold;
-        }
-
-        form {
-            max-width: 500px;
-        }
-
-        input, textarea {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #cbd5e1;
-            border-radius: 5px;
-        }
-
-        button {
-            background: #0f172a;
-            color: white;
-            padding: 12px;
-            border: none;
-            width: 100%;
-            font-size: 16px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-
-        button:hover {
-            background: #1e293b;
-        }
-
-        
-        footer {
-            background: #0f172a;
-            color: white;
-            text-align: center;
-            padding: 15px;
-        }
-    </style> -->
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
-    <h1><b>Alfiya Ayubkhan Pathan</b></h1>
+    <h1>Alfiya Ayubkhan Pathan</h1>
+    <button id="darkModeBtn" class="dark-toggle">🌙</button>
+
     <nav>
         <a href="#about">ABOUT</a>
         <a href="#skills">SKILLS</a>
@@ -143,24 +26,18 @@
 
     <!-- About Section -->
     <section id="about">
-        <h2><b>About Me</b></h2>
+        <h2><b><u>About Me</u></b></h2>
         <div class="about">
             <img src="myimg.jpeg" alt="Profile photo of Alfiya Pathan">
             <p>
-                <b>I am Currently pursuing Bachelor of Computer Applications (BCA) with a focus on Frontend Development, Web technologies, and Cybersecurity.
-
-Throughout my Degree, I have gained strong knowledge and hands-on experience in programming languages such as C,  Core-Java, Python, and PHP, along with Web development using HTML&CSS, JavaScript, and React JS.
-
-I’ve also explored Database Management (DBMS, MySQL), Cyber security basics, and Advanced Java concepts. I enjoy building real-world projects, learning new frameworks, and staying updated with the latest tech trends.</b>
-
-            </p>
+                <b>I am a final-year Bachelor of Computer Applications (BCA) student specializing in Frontend Development and Web Technologies, with foundational knowledge of Cybersecurity. I have hands-on experience in C, Core Java, Python, PHP, and modern web technologies including HTML, CSS, JavaScript, and React JS. I have completed multiple academic and personal projects, focusing on responsive UI design, form validation, and practical problem-solving. I am a quick learner, passionate about building real-world applications and continuously improving my technical skills.
         </div>
     </section>
     <br><hr>
 
     <!-- Skills Section -->
     <section id="skills">
-        <h2><b>My Skills</b></h2>
+        <h2><b><u>My Skills</u></b></h2>
         <div class="skills-list">
             <div class="skill-card">HTML5</div>
             <div class="skill-card">CSS3 (Basics)</div>
@@ -170,19 +47,16 @@ I’ve also explored Database Management (DBMS, MySQL), Cyber security basics, a
             <div class="skill-card">Problem Solving</div>
             <div class="skill-card">Web Development</div>
             <div class="skill-card">Javascript</div>
+            <div class="skill-card">CyberSecurity</div>
         </div>
     </section>
     <br><hr>
+    
 
     <!-- Contact Section -->
     <section id="contact">
-        <h2><b>Contact Me</b></h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea rows="4" placeholder="Your Message" required></textarea>
-            <button type="submit">Send Message</button>
-        </form>
+        <h2><b><u>Contact Me</u></b></h2>
+        
 
         <p style="margin-top:15px;">
             Connect with me on:
@@ -192,12 +66,18 @@ I’ve also explored Database Management (DBMS, MySQL), Cyber security basics, a
         </p>
     </section>
 <br><hr>
+<form id="contactForm">
+  <input type="text" id="name" placeholder="Your Name" required>
+  <input type="email" id="email" placeholder="Your Email" required>
+  <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+  <button type="submit">Send Message</button>
+  <p id="formMessage"></p>
+</form>
 </main>
 
 <footer>
     <p>© 2026 Alfiya Ayubkhan Pathan | Personal Portfolio</p>
 </footer>
-
+<script src="script.js"></script>
 </body>
 </html>
-
