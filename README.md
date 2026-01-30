@@ -1,32 +1,22 @@
-# Personal Portfolio Website – Week 2
+# Personal Portfolio Website – Week 3
 
-This is my **Week 2 Personal Portfolio Website**, developed by enhancing the Week 1 project.
-In this week, I focused on improving the **design, layout, responsiveness, and user interaction**
-using modern **CSS techniques**.
+## Overview
+This is my personal portfolio website built with **HTML, CSS, and JavaScript**.  
+It showcases my skills, projects, and contact information, demonstrating my experience as a **Frontend Developer** and BCA final-year student.
 
-Featured Used
-- External CSS file for better structure and maintainability
-- Modern color scheme using CSS variables
-- Custom typography using Google Fonts
-- Responsive layout for mobile and tablet devices
-- Flexbox and CSS Grid for page layout
-- Hover effects, transitions, and basic animations
-- Styled sections, buttons, forms, and images
 
-Technologies Used
-- HTML5
-- CSS3  
-  - Flexbox  
-  - CSS Grid  
-  - Media Queries  
-  - Transitions & Hover Effects  
+## Features
+- **Responsive Design:** Works on desktop, tablet, and mobile devices.
+- **Dark Mode Toggle:** Switch between light and dark themes.
+- **Interactive Skills Section:** Highlight skills on hover (planned or implemented).
+- **Contact Form:** Users can send messages (with form validation).
+- **Links to Social Profiles:** GitHub and LinkedIn for professional connections.
 
- Learning Outcomes
-- Linking external CSS files
-- Creating reusable CSS classes and variables
-- Designing responsive web layouts
-- Using Flexbox and Grid for alignment and spacing
-- Implementing interactive UI elements
-- Writing clean and organized CSS
+
+## Technologies Used
+- **HTML5** – For website structure.
+- **CSS3** – For styling and layout.
+- **JavaScript** – For interactive features, form validation, and dark mode.
+- Optional: **Local Storage** – To save user preferences (e.g., dark mode).
 
 
